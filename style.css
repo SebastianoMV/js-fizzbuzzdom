@@ -33,3 +33,8 @@ h1{
   color: chocolate;
   border-radius: 50%;
 }
+
+.box-fizzbuzz:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
