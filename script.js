@@ -17,12 +17,15 @@ for(let i = 1; i < limit; i++){
   } else if( i % 3 == 0 && i % 5 == 0 ){
     console.log('FizzBuzz');
     boxEl.append('FizzBuzz');
+    boxEl.classList.add('box-fizzbuzz');
   }else if(i % 3 == 0){
     console.log('Fizz');
     boxEl.append('Fizz');
+    boxEl.classList.add('box-fizz');
   } else if(i % 5 == 0){
     console.log('Buzz');
     boxEl.append('Buzz');
+    boxEl.classList.add('box-buzz');
   }
   
 }
